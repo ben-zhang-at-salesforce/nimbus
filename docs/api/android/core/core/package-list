@@ -1,0 +1,11 @@
+$dokka.format:html
+$dokka.linkExtension:html
+$dokka.location:com.salesforce.nimbus$toJSONEncodable(kotlin.Array((com.salesforce.nimbus.toJSONEncodable.V)))com.salesforce.nimbus/kotlin.-array/to-j-s-o-n-encodable.html
+$dokka.location:com.salesforce.nimbus$toJSONEncodable(kotlin.Boolean)com.salesforce.nimbus/kotlin.-boolean/to-j-s-o-n-encodable.html
+$dokka.location:com.salesforce.nimbus$toJSONEncodable(kotlin.Double)com.salesforce.nimbus/kotlin.-double/to-j-s-o-n-encodable.html
+$dokka.location:com.salesforce.nimbus$toJSONEncodable(kotlin.Int)com.salesforce.nimbus/kotlin.-int/to-j-s-o-n-encodable.html
+$dokka.location:com.salesforce.nimbus$toJSONEncodable(kotlin.Long)com.salesforce.nimbus/kotlin.-long/to-j-s-o-n-encodable.html
+$dokka.location:com.salesforce.nimbus$toJSONEncodable(kotlin.String)com.salesforce.nimbus/kotlin.-string/to-j-s-o-n-encodable.html
+$dokka.location:com.salesforce.nimbus$toJSONEncodable(kotlin.collections.List((com.salesforce.nimbus.toJSONEncodable.V)))com.salesforce.nimbus/kotlin.collections.-list/to-j-s-o-n-encodable.html
+$dokka.location:com.salesforce.nimbus$toJSONEncodable(kotlin.collections.Map((kotlin.String, com.salesforce.nimbus.toJSONEncodable.V)))com.salesforce.nimbus/kotlin.collections.-map/to-j-s-o-n-encodable.html
+com.salesforce.nimbus

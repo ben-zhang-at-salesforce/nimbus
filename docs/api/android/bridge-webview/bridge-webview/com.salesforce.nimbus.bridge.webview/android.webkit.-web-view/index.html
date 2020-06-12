@@ -1,0 +1,36 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>com.salesforce.nimbus.bridge.webview.android.webkit.WebView - bridge-webview</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">bridge-webview</a>&nbsp;/&nbsp;<a href="../index.html">com.salesforce.nimbus.bridge.webview</a>&nbsp;/&nbsp;<a href="./index.html">android.webkit.WebView</a><br/>
+<br/>
+<h3>Extensions for android.webkit.WebView</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="bridge.html">bridge</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">WebView</span><span class="symbol">.</span><span class="identifier">bridge</span><span class="symbol">(</span><span class="identifier" id="com.salesforce.nimbus.bridge.webview$bridge(android.webkit.WebView, kotlin.Function1((com.salesforce.nimbus.bridge.webview.WebViewBridge.Builder, kotlin.Unit)))/builder">builder</span><span class="symbol">:</span>&nbsp;<a href="../-web-view-bridge/-builder/index.html"><span class="identifier">WebViewBridge.Builder</span></a><span class="symbol">.</span><span class="symbol">(</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="../-web-view-bridge/index.html"><span class="identifier">WebViewBridge</span></a></code>
+<p>Creates a <a href="../-web-view-bridge/-builder/index.html">WebViewBridge.Builder</a> and passes it to the <a href="bridge.html#com.salesforce.nimbus.bridge.webview$bridge(android.webkit.WebView, kotlin.Function1((com.salesforce.nimbus.bridge.webview.WebViewBridge.Builder, kotlin.Unit)))/builder">builder</a> function, allowing any binders to be added
+and then attaches to the <a href="#">WebView</a> instance.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="broadcast-message.html">broadcastMessage</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">WebView</span><span class="symbol">.</span><span class="identifier">broadcastMessage</span><span class="symbol">(</span><span class="identifier" id="com.salesforce.nimbus.bridge.webview$broadcastMessage(android.webkit.WebView, kotlin.String, com.salesforce.nimbus.JSEncodable((kotlin.String)), kotlin.Function1((kotlin.Int, kotlin.Unit)))/name">name</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.salesforce.nimbus.bridge.webview$broadcastMessage(android.webkit.WebView, kotlin.String, com.salesforce.nimbus.JSEncodable((kotlin.String)), kotlin.Function1((kotlin.Int, kotlin.Unit)))/arg">arg</span><span class="symbol">:</span>&nbsp;<span class="identifier">JSEncodable</span><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">&gt;</span><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.salesforce.nimbus.bridge.webview$broadcastMessage(android.webkit.WebView, kotlin.String, com.salesforce.nimbus.JSEncodable((kotlin.String)), kotlin.Function1((kotlin.Int, kotlin.Unit)))/completionHandler">completionHandler</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="symbol">(</span><span class="identifier">result</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Asynchronously broadcast a message to subscribers listening on Javascript side.  Message can be
+delivered with an argument so that subscriber can use that pass useful data. This method must be called on UI thread.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

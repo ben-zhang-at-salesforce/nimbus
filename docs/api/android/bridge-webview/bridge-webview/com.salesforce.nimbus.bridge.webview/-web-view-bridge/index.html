@@ -1,0 +1,113 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>WebViewBridge - bridge-webview</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">bridge-webview</a>&nbsp;/&nbsp;<a href="../index.html">com.salesforce.nimbus.bridge.webview</a>&nbsp;/&nbsp;<a href="./index.html">WebViewBridge</a><br/>
+<br/>
+<h1>WebViewBridge</h1>
+<code><span class="keyword">class </span><span class="identifier">WebViewBridge</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">Bridge</span><span class="symbol">&lt;</span><span class="identifier">WebView</span><span class="symbol">,</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier">Runtime</span><span class="symbol">&lt;</span><span class="identifier">WebView</span><span class="symbol">,</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">&gt;</span></code>
+<h3>Types</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-builder/index.html">Builder</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">Builder</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">Builder</span><span class="symbol">&lt;</span><span class="identifier">WebView</span><span class="symbol">,</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">,</span>&nbsp;<a href="./index.html"><span class="identifier">WebViewBridge</span></a><span class="symbol">&gt;</span></code>
+<p>Builder class to create instances of <a href="./index.html">WebViewBridge</a> and attach to a <a href="#">WebView</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">WebViewBridge</span><span class="symbol">(</span><span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="detach.html">detach</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">detach</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="finalize.html">finalize</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">finalize</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="get-javascript-engine.html">getJavascriptEngine</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getJavascriptEngine</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">WebView</span><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="invoke.html">invoke</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">invoke</span><span class="symbol">(</span><span class="identifier" id="com.salesforce.nimbus.bridge.webview.WebViewBridge$invoke(kotlin.String, kotlin.Array((com.salesforce.nimbus.JSEncodable((kotlin.String)))), kotlin.Function2((kotlin.String, kotlin.Any, kotlin.Unit)))/functionName">functionName</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.salesforce.nimbus.bridge.webview.WebViewBridge$invoke(kotlin.String, kotlin.Array((com.salesforce.nimbus.JSEncodable((kotlin.String)))), kotlin.Function2((kotlin.String, kotlin.Any, kotlin.Unit)))/args">args</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html"><span class="identifier">Array</span></a><span class="symbol">&lt;</span><span class="identifier">JSEncodable</span><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="com.salesforce.nimbus.bridge.webview.WebViewBridge$invoke(kotlin.String, kotlin.Array((com.salesforce.nimbus.JSEncodable((kotlin.String)))), kotlin.Function2((kotlin.String, kotlin.Any, kotlin.Unit)))/callback">callback</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="symbol">(</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span><span class="symbol">,</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">?</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="make-callback.html">makeCallback</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">makeCallback</span><span class="symbol">(</span><span class="identifier" id="com.salesforce.nimbus.bridge.webview.WebViewBridge$makeCallback(kotlin.String)/callbackId">callbackId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="../-callback/index.html"><span class="identifier">Callback</span></a><span class="symbol">?</span></code>
+<p>Creates and returns a Callback object that can be passed as an argument to
+a subsequent JavascriptInterface bound method.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="native-plugin-names.html">nativePluginNames</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">nativePluginNames</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>Return the names of all connected extensions so they can be processed by the
+JavaScript runtime code.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="page-unloaded.html">pageUnloaded</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">pageUnloaded</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="reject-promise.html">rejectPromise</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">rejectPromise</span><span class="symbol">(</span><span class="identifier" id="com.salesforce.nimbus.bridge.webview.WebViewBridge$rejectPromise(kotlin.String, kotlin.String)/promiseId">promiseId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.salesforce.nimbus.bridge.webview.WebViewBridge$rejectPromise(kotlin.String, kotlin.String)/error">error</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="resolve-promise.html">resolvePromise</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">resolvePromise</span><span class="symbol">(</span><span class="identifier" id="com.salesforce.nimbus.bridge.webview.WebViewBridge$resolvePromise(kotlin.String, kotlin.String)/promiseId">promiseId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.salesforce.nimbus.bridge.webview.WebViewBridge$resolvePromise(kotlin.String, kotlin.String)/json">json</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

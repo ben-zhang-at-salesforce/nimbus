@@ -1,0 +1,57 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>Binder - core</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">core</a>&nbsp;/&nbsp;<a href="../index.html">com.salesforce.nimbus</a>&nbsp;/&nbsp;<a href="./index.html">Binder</a><br/>
+<br/>
+<h1>Binder</h1>
+<code><span class="keyword">interface </span><span class="identifier">Binder</span><span class="symbol">&lt;</span><span class="identifier">JavascriptEngine</span><span class="symbol">, </span><span class="identifier">EncodedType</span><span class="symbol">&gt;</span></code>
+<p>Binder interface for the generated <a href="../-plugin/index.html">Plugin</a> binder class. <a href="index.html#JavascriptEngine">JavascriptEngine</a> represents the
+class which is capable of executing javascript, such as an Android WebView or V8.
+<a href="index.html#EncodedType">EncodedType</a> represents the encoded type the <a href="index.html#JavascriptEngine">JavascriptEngine</a> expects.</p>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="bind.html">bind</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">bind</span><span class="symbol">(</span><span class="identifier" id="com.salesforce.nimbus.Binder$bind(com.salesforce.nimbus.Runtime((com.salesforce.nimbus.Binder.JavascriptEngine, com.salesforce.nimbus.Binder.EncodedType)))/runtime">runtime</span><span class="symbol">:</span>&nbsp;<a href="../-runtime/index.html"><span class="identifier">Runtime</span></a><span class="symbol">&lt;</span><a href="index.html#JavascriptEngine"><span class="identifier">JavascriptEngine</span></a><span class="symbol">,</span>&nbsp;<a href="index.html#EncodedType"><span class="identifier">EncodedType</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Binds to the <a href="../-runtime/index.html">Runtime</a>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-plugin.html">getPlugin</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getPlugin</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="../-plugin/index.html"><span class="identifier">Plugin</span></a></code>
+<p>Returns the <a href="../-plugin/index.html">Plugin</a> that this binder is bound to.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-plugin-name.html">getPluginName</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getPluginName</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>Returns the name of the plugin which will be used as the javascript interface.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="unbind.html">unbind</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">unbind</span><span class="symbol">(</span><span class="identifier" id="com.salesforce.nimbus.Binder$unbind(com.salesforce.nimbus.Runtime((com.salesforce.nimbus.Binder.JavascriptEngine, com.salesforce.nimbus.Binder.EncodedType)))/runtime">runtime</span><span class="symbol">:</span>&nbsp;<a href="../-runtime/index.html"><span class="identifier">Runtime</span></a><span class="symbol">&lt;</span><a href="index.html#JavascriptEngine"><span class="identifier">JavascriptEngine</span></a><span class="symbol">,</span>&nbsp;<a href="index.html#EncodedType"><span class="identifier">EncodedType</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Unbinds from the <a href="../-runtime/index.html">Runtime</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

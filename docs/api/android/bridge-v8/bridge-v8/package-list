@@ -1,0 +1,15 @@
+$dokka.format:html
+$dokka.linkExtension:html
+$dokka.location:com.salesforce.nimbus.bridge.v8$bridge(com.eclipsesource.v8.V8, kotlin.Function1((com.salesforce.nimbus.bridge.v8.V8Bridge.Builder, kotlin.Unit)))com.salesforce.nimbus.bridge.v8/com.eclipsesource.v8.-v8/bridge.html
+$dokka.location:com.salesforce.nimbus.bridge.v8$createObject(com.eclipsesource.v8.V8)com.salesforce.nimbus.bridge.v8/com.eclipsesource.v8.-v8/create-object.html
+$dokka.location:com.salesforce.nimbus.bridge.v8$promiseGlobal(com.eclipsesource.v8.V8)com.salesforce.nimbus.bridge.v8/com.eclipsesource.v8.-v8/promise-global.html
+$dokka.location:com.salesforce.nimbus.bridge.v8$registerJavaCallback(com.eclipsesource.v8.V8Object, kotlin.String, kotlin.Function1((com.eclipsesource.v8.V8Array, kotlin.Any)))com.salesforce.nimbus.bridge.v8/com.eclipsesource.v8.-v8-object/register-java-callback.html
+$dokka.location:com.salesforce.nimbus.bridge.v8$registerVoidCallback(com.eclipsesource.v8.V8Object, kotlin.String, kotlin.Function1((com.eclipsesource.v8.V8Array, kotlin.Unit)))com.salesforce.nimbus.bridge.v8/com.eclipsesource.v8.-v8-object/register-void-callback.html
+$dokka.location:com.salesforce.nimbus.bridge.v8$rejectPromise(com.eclipsesource.v8.V8, kotlin.String)com.salesforce.nimbus.bridge.v8/com.eclipsesource.v8.-v8/reject-promise.html
+$dokka.location:com.salesforce.nimbus.bridge.v8$resolvePromise(com.eclipsesource.v8.V8, kotlin.Any)com.salesforce.nimbus.bridge.v8/com.eclipsesource.v8.-v8/resolve-promise.html
+$dokka.location:com.salesforce.nimbus.bridge.v8$toV8Encodable(kotlin.Boolean, com.eclipsesource.v8.V8)com.salesforce.nimbus.bridge.v8/kotlin.-boolean/to-v8-encodable.html
+$dokka.location:com.salesforce.nimbus.bridge.v8$toV8Encodable(kotlin.Double, com.eclipsesource.v8.V8)com.salesforce.nimbus.bridge.v8/kotlin.-double/to-v8-encodable.html
+$dokka.location:com.salesforce.nimbus.bridge.v8$toV8Encodable(kotlin.Int, com.eclipsesource.v8.V8)com.salesforce.nimbus.bridge.v8/kotlin.-int/to-v8-encodable.html
+$dokka.location:com.salesforce.nimbus.bridge.v8$toV8Encodable(kotlin.Long, com.eclipsesource.v8.V8)com.salesforce.nimbus.bridge.v8/kotlin.-long/to-v8-encodable.html
+$dokka.location:com.salesforce.nimbus.bridge.v8$toV8Encodable(kotlin.String, com.eclipsesource.v8.V8)com.salesforce.nimbus.bridge.v8/kotlin.-string/to-v8-encodable.html
+com.salesforce.nimbus.bridge.v8

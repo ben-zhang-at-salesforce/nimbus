@@ -1,0 +1,6 @@
+$dokka.format:html
+$dokka.linkExtension:html
+$dokka.location:com.salesforce.nimbus.bridge.webview$bridge(android.webkit.WebView, kotlin.Function1((com.salesforce.nimbus.bridge.webview.WebViewBridge.Builder, kotlin.Unit)))com.salesforce.nimbus.bridge.webview/android.webkit.-web-view/bridge.html
+$dokka.location:com.salesforce.nimbus.bridge.webview$broadcastMessage(android.webkit.WebView, kotlin.String, com.salesforce.nimbus.JSEncodable((kotlin.String)), kotlin.Function1((kotlin.Int, kotlin.Unit)))com.salesforce.nimbus.bridge.webview/android.webkit.-web-view/broadcast-message.html
+$dokka.location:com.salesforce.nimbus.bridge.webview$fromStream(kotlin.String.Companion, java.io.InputStream)com.salesforce.nimbus.bridge.webview/kotlin.-string/from-stream.html
+com.salesforce.nimbus.bridge.webview

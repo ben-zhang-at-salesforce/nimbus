@@ -1,0 +1,70 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>Callback - bridge-webview</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">bridge-webview</a>&nbsp;/&nbsp;<a href="../index.html">com.salesforce.nimbus.bridge.webview</a>&nbsp;/&nbsp;<a href="./index.html">Callback</a><br/>
+<br/>
+<h1>Callback</h1>
+<code><span class="keyword">class </span><span class="identifier">Callback</span></code>
+<p>A <a href="./index.html">Callback</a> represents a javascript function that can be accepted
+as an argument to a native method.</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">Callback</span><span class="symbol">(</span><span class="identifier" id="com.salesforce.nimbus.bridge.webview.Callback$<init>(android.webkit.WebView, kotlin.String)/webView">webView</span><span class="symbol">:</span>&nbsp;<span class="identifier">WebView</span><span class="symbol">, </span><span class="identifier" id="com.salesforce.nimbus.bridge.webview.Callback$<init>(android.webkit.WebView, kotlin.String)/callbackId">callbackId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span></code>
+<p>A <a href="./index.html">Callback</a> represents a javascript function that can be accepted
+as an argument to a native method.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="callback-id.html">callbackId</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">callbackId</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="web-view.html">webView</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">webView</span><span class="symbol">: </span><span class="identifier">WebView</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="call.html">call</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">call</span><span class="symbol">(</span><span class="keyword">vararg</span> <span class="identifier" id="com.salesforce.nimbus.bridge.webview.Callback$call(kotlin.Array((kotlin.Any)))/args">args</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Execute the wrapped javascript function passing <a href="call.html#com.salesforce.nimbus.bridge.webview.Callback$call(kotlin.Array((kotlin.Any)))/args">args</a> as the arguments.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="finalize.html">finalize</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">finalize</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
